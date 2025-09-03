@@ -1,0 +1,27 @@
+{
+  "name": "sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx database.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indianous/sqlite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indianous/sqlite/issues"
+  },
+  "homepage": "https://github.com/indianous/sqlite#readme",
+  "dependencies": {
+    "sql-bricks": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
